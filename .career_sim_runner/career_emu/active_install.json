@@ -1,0 +1,19 @@
+{
+  "submission_dir": "/Users/Test/Documents/techarena-career-simu/solution",
+  "submission_name": "KSL",
+  "skill_dir": "/Users/Test/.jiuwenswarm-instances/career_emu/agent/workspace/skills",
+  "skill_name": "submission-skills",
+  "manifest": {
+    "team": "KSL",
+    "name": "career-survival-baseline",
+    "mode": "agent",
+    "instruction": "Play one complete Career Survival game through the career-emulator-engine MCP tools. At the start, call new_game and then show_employee_handbook once. Then repeat observe and take_action until the run ends. For every decision, use the skills in this submission: career-state-assessment first, then event-decision for story events or quarterly-planning for the quarterly phase. Keep each notes entry short and state the main reason for the choice.",
+    "submission_mode": "skill_bundle",
+    "participant_skill_names": [
+      "career-state-assessment",
+      "event-decision",
+      "quarterly-planning",
+      "skill-name"
+    ]
+  }
+}

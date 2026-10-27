@@ -219,8 +219,6 @@ __marimo__/
 
 # Output and the participant working copy.
 # `/solution/` is anchored so tests/fixtures/solution stays tracked.
-.career_sim_runner/
-/solution/
 
 # macOS Finder metadata
 .DS_Store
