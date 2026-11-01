@@ -1,4 +1,4 @@
-# career-survival-v3 (team KSL)
+# career-survival-final (team KSL)
 
 This is team KSL's final submission for TechArena Career Survival Agent. It runs on JiuwenSwarm 0.2.4b3 in single-agent mode (`"mode": "agent"`). The agent plays one 48-month career through the `career-emulator-engine` MCP tools, using three Skills.
 
@@ -15,9 +15,9 @@ Assessment and choice are kept apart, so each Skill stays short and does one job
 ## Design principles
 
 - Survival comes first: when Health or Dignity is low or falling, or a warning appears, recovery outranks growth.
-- Options with delayed costs (overwork, damaged relationships, cut corners) are treated with suspicion. A likely Network loss counts as a real cost.
-- Energy is not wasted on recovering a statistic that is already at its maximum.
-- Promotion needs balanced Skill, Network and Output, and reviews see Output most directly.
+- Options with delayed costs (overwork, damaged relationships, cut corners) are treated with suspicion, and repeated small harms count as serious.
+- Review timing matters: invest in Skill and Network after a review, shift toward visible Output before one.
+- Promotion needs balanced Skill, Network and Output.
 - There are no hard-coded thresholds, event scripts or engine internals. Each judgement is made relative to a statistic's published range and to feedback from the run.
 
 ## Files

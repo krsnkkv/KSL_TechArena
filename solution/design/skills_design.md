@@ -29,13 +29,13 @@ We use a single agent (JiuwenSwarm 0.2.4b3, `"mode": "agent"`) with three Skills
 
 - **Purpose:** to pick one option for a story event.
 - **Information used:** the option texts, the published effect directions, the current status and priority.
-- **Method:** estimate each option's likely effect on each statistic in words (no invented numbers), mark options with delayed costs (overwork, damaged relationships, cut corners), score the options against the priority, and break ties toward the safer option. It never trades a large Health or Dignity loss for a small gain, treats repeated small harms as serious, and counts a likely Network loss (refusing, blaming or escalating in public) as a real cost. When options are close, it keeps the relationship.
+- **Method:** estimate each option's likely effect on each statistic in words (no invented numbers), mark options with delayed costs (overwork, damaged relationships, cut corners), score the options against the priority, and break ties toward the safer option. It never trades a large Health or Dignity loss for a small gain, treats repeated small harms as serious.
 
 ### quarterly-planning
 
 - **Purpose:** to allocate the 3 Energy points and choose the main action.
 - **Information used:** the published Energy and main actions with their effect directions (restated briefly inside the Skill so the agent doesn't need to re-read the handbook), the priority, and the review timing.
-- **Method:** a mapping from each priority to preferred actions, plus cross-cutting rules: use all Energy; don't take Health- or Dignity-costly actions in consecutive quarters unless comfortable; don't spend Health or Mental recovery on a statistic already at its maximum (use Network maintenance or Prepare report materials instead); don't neglect any of Skill, Network or Output for several quarters; invest in Skill and Network just after a review and in Output just before one.
+- **Method:** a mapping from each priority to preferred actions, plus cross-cutting rules: use all Energy; don't take Health- or Dignity-costly actions in consecutive quarters unless comfortable; don't neglect any of Skill, Network or Output for several quarters; invest in Skill and Network just after a review and in Output just before one.
 
 ## 3. How the outputs combine into a decision
 

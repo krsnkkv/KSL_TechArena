@@ -24,7 +24,6 @@ Use this Skill when `observe` shows a story event with choices. Use the status a
 - Never trade a large loss in Health or Dignity for a small gain elsewhere.
 - Do not try to guess hidden formulas or follow event-specific scripts. Reason from the option text, the current state and the feedback received.
 - Treat repeated small harms as serious, because they accumulate.
-- Count a likely Network loss as a real cost. Refusing, blaming or escalating in public often costs Network, and losses across many events add up to weak standing at review time. When two options serve the priority about equally, choose the one that keeps the relationship.
 
 ## Action
 
