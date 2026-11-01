@@ -1,0 +1,84 @@
+{
+  "submission_name": "KSL",
+  "submission_dir": "/Users/Test/Documents/techarena-career-simu/solution",
+  "skill_name": "submission-skills",
+  "drive_session_id": "career-sim-runner-454b522ece63",
+  "session_id": "915d1b8fcd7b4fc885c2dfdcfbf22d2f",
+  "play_exit_code": 0,
+  "termination_reason": null,
+  "token_usage": {
+    "input_tokens": 19945334,
+    "output_tokens": 92461,
+    "total_tokens": 20037795,
+    "total_cost": 0.54177,
+    "by_model": {
+      "deepseek-v4-flash": {
+        "input_tokens": 19945334,
+        "output_tokens": 92461,
+        "total_tokens": 20037795,
+        "total_cost": 0.54177
+      }
+    }
+  },
+  "ending_score": {
+    "competition_partial_score": 15.65,
+    "completed": false,
+    "dimensions": [
+      {
+        "label": "Career level",
+        "name": "level",
+        "normalized_score": 10.0,
+        "raw_value": 1.0,
+        "weight": 0.3,
+        "weighted_score": 3.0
+      },
+      {
+        "label": "Total wealth",
+        "name": "wealth",
+        "normalized_score": 7.62,
+        "raw_value": 6.1,
+        "weight": 0.2,
+        "weighted_score": 1.53
+      },
+      {
+        "label": "Health & dignity",
+        "name": "resilience",
+        "normalized_score": 70.0,
+        "raw_value": 14.0,
+        "weight": 0.15,
+        "weighted_score": 10.5
+      },
+      {
+        "label": "Professional skill",
+        "name": "skill",
+        "normalized_score": 6.67,
+        "raw_value": 8.0,
+        "weight": 0.15,
+        "weighted_score": 1.0
+      },
+      {
+        "label": "Risk control",
+        "name": "risk_control",
+        "normalized_score": 60.0,
+        "raw_value": 4.0,
+        "weight": 0.1,
+        "weighted_score": 6.0
+      },
+      {
+        "label": "Workplace network",
+        "name": "network",
+        "normalized_score": 3.33,
+        "raw_value": 2.0,
+        "weight": 0.1,
+        "weighted_score": 0.33
+      }
+    ],
+    "outcome": "eliminated",
+    "quantitative_score": 22.36,
+    "survival_months": 24
+  },
+  "output_dir": "/Users/Test/Documents/techarena-career-simu/.career_sim_runner/career_emu/outputs/KSL/20261101T220734Z",
+  "events_log": "/Users/Test/Documents/techarena-career-simu/.career_sim_runner/career_emu/outputs/KSL/20261101T220734Z/events-20261101T220734Z.jsonl",
+  "transcript_log": "/Users/Test/Documents/techarena-career-simu/.career_sim_runner/career_emu/outputs/KSL/20261101T220734Z/transcript-20261101T220734Z.log",
+  "scored_at": "2026-11-01T22:35:00.255077+00:00"
+}
